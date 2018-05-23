@@ -22,8 +22,8 @@ public class Square
     
     public static void main(String[] args)
     {
-        SquareTracer sq = new SquareTracer();
-        sq.pilot = new DifferentialPilot(2.25f, 5.5f, Motor.A, Motor.C);
-        sq.drawSquare(20);
+        Square sq = new Square();
+        sq.pilot = new DifferentialPilot(5.6f, 11.5f, Motor.A, Motor.B);
+        sq.go(20);
     }
 }
